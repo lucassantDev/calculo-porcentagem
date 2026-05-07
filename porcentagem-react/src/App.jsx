@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import headerTop from './components/headerTop'
-import mainPage from './components/mainPage'
+import HeaderTop from './components/HeaderTop'
+import MainPage from './components/MainPage'
 import '../src/style/index.css'
 
 function App() {
   
   return (
     <>
-      <headerTop/>
-      <mainPage/>
+      <HeaderTop/>
+      <MainPage/>
     </>
   )
 }
 
-export default App
+export default App;

@@ -1,13 +1,14 @@
 import '../style/index.css'
+import Horario from './Horario'
 
-function headerTop(){
+function HeaderTop(){
     return(
         <>
             <header>
-                <h2>calculadora porcentagem</h2>
+                <Horario/>
             </header>
         </>
     )
 };
 
-export default headerTop
+export default HeaderTop;
